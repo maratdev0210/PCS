@@ -12,7 +12,7 @@
 
 <img width="974" height="458" alt="Главный экран" src="https://github.com/user-attachments/assets/e09ba55c-2d4a-432e-ae7a-87a49f46f940" /> Главный экран
 <img width="974" height="435" alt="image" src="https://github.com/user-attachments/assets/3474fe0f-8ccb-46fc-b78d-1dfab4212dcb" /> Экран с заметками
-<img width="974" height="469" alt="image" src="https://github.com/user-attachments/assets/f6ea6c11-5bbc-4c64-9516-4225d109dc28" /> Экран с добавлением заметок
+<img width="1860" height="852" alt="image" src="https://github.com/user-attachments/assets/c211c30b-e2e3-455b-958d-8bd7156a592a" /> Экран с добавлением заметок
 
 ## 4.	Отчёт
 В ходе работы были созданы три экрана с дизайном списка задач. Главный экран отвечает за запуск приложения. 
