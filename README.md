@@ -1,16 +1,12 @@
-# ui_practice3_musagitov
+# Практическое занятие №3 Работа с компонентами пользовательского интерфейса. Работа с основными виджетами. Работа с цветами, шрифтами и компоновкой элементов».
+# ЭФБО-09-23. Мусагитов Марат
 
-A new Flutter project.
+## Скриншот работающего приложения с текстом, кнопкой и контейнером.
+<img width="948" height="997" alt="Снимок экрана 2025-11-12 132858" src="https://github.com/user-attachments/assets/0dc53187-7e50-4ef8-b9d8-082904a1d75e" />
 
-## Getting Started
+## Скриншот с изменёнными цветами и стилями текста.
+<img width="765" height="963" alt="Снимок экрана 2025-11-12 133523" src="https://github.com/user-attachments/assets/bad2945c-12d5-46de-ab33-3d83039b4432" />
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Отчёт
+В приложении использовались виджеты Scaffold, Center, Column, Text, ElevatedButton и Container. Text стилизован с помощью размера шрифта, жирности и цвета. Кнопка оформлена с скруглёнными углами, цветом фона и текста, внутренними отступами. Контейнер имеет заданные размеры, цвет фона и центрированный текст.
+Возникли трудности с подбором цветовой палитры и настройкой стилей элементов.
