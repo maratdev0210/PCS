@@ -1,16 +1,36 @@
-# flutter_create_state_practice_musagitov
+# Практическое занятие №4 Способы компоновки элементов и контейнеры. Обработка событий. Управление состоянием. Обновление состояния виджетов при нажатии кнопок или других событиях.
+# ЭФБО-09-23. Мусагитов Марат
 
-A new Flutter project.
+## 1.Скриншот работающего приложения с кнопками и счётчиком.
+<img width="961" height="1001" alt="image" src="https://github.com/user-attachments/assets/5ed29c34-9c86-45a6-8c49-f1be982a5038" />
 
-## Getting Started
+## 2. Скриншот при значении счётчика > 10.
+<img width="857" height="1003" alt="image" src="https://github.com/user-attachments/assets/b547d536-7a5d-4a89-acc4-9d22f81e29d6" />
 
-This project is a starting point for a Flutter application.
+## 3. Скриншот после сброса.
+<img width="831" height="1006" alt="image" src="https://github.com/user-attachments/assets/8cc471e9-a415-40a4-b97e-d01c8fd3caa2" />
 
-A few resources to get you started if this is your first Flutter project:
+## Отчёт
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+При выполнении практической работы были использованы виджеты MaterialApp, Scaffold, AppBar, Center, Column, Text, Container, TextButton, Padding, и SizedBox. 
+Реализация состояния осуществляется через StatefulWidget (`CounterPage`). Переменной состояния является `counter` с изначальным значением равным нулю. 
+Для обновления значения использовался метод `setState()`, который перерисовывает экран при изменении переменной `counter`. 
+```
+setState(() {
+  counter++; // counter => counter + 1
+});
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+setState(() {
+  counter += 10; // counter => counter + 10
+});
+```
+```
+setState(() {
+  counter = 0; // counter => counter = 0
+});
+```
+
+
+
